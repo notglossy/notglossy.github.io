@@ -1,79 +1,47 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>HTML Reference Sheet</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@100;200;300;392;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <h1>Reference Sheet</h1>
-    <h2>New HTML5 Tags</h2>
+ body {
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  background-color: rgb(204,203,200);
+}
 
-    <table>
-      <thead>
-        <tr>
-          <th>Tag</th>
-          <th>Name</th>
-          <th>Purpose</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tag">&lt;aside&gt;</td>
-          <td>Aside</td>
-          <td>Defines aside content.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;article&gt;</td>
-          <td>Article</td>
-          <td>Specifies independent, self-contained content.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;nav&gt;</td>
-          <td>Navigation</td>
-          <td>Contains the website navigation.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;header&gt;</td>
-          <td>Header</td>
-          <td>Content for the top of the website.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;footer&gt;</td>
-          <td>Footer</td>
-          <td>Content for the bottom of the website.</td>
-        </tr>                  
-      </tbody>
-    </table>
+h1 {
+  color: rgb(238,245,82);
+  font-size: 72px;
+  font-weight: 200;
+  line-height: 1;
+  font-family: 'Bebas Neue', sans-serif;
+}
 
-<h2>New Media Tags</h2>
+h2 {
+  color: #333;
+  background-color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+table {
+width: 100%;
+font-size: 18px;
+background-color: black;
+padding: 0;
+color: white;
+}
 
-    <table>
-      <thead>
-        <tr>
-          <th>Tag</th>
-          <th>Name</th>
-          <th>Purpose</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tag">&lt;video&gt;</td>
-          <td>Video</td>
-          <td>Contains video content and sources.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;audio&gt;</td>
-          <td>Audio</td>
-          <td>Contains audio content and sources.</td>
-        </tr>
-        <tr>
-          <td class="tag">&lt;embed&gt;</td>
-          <td>Embed</td>
-          <td>Generic tag for media elements.</td>
-        </tr>                
-      </tbody>
-    </table>    
+thead {
+  background-color: #333;
+  color: white;
+}
 
-  </body>
-</html>
+th, td {
+  text-align: left;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.tag {
+    font-family: 'JetBrains Mono', monospace;
+  text-transform: lowercase;
+  color: violet;
+  background-color: #333;
+}
