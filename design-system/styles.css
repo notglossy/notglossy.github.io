@@ -12,6 +12,35 @@ body {
   font-family: 'Bitter', serif;
 }
 
+.smallCaps {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 5px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  display: inline;
+}
+
+.smallCaps.good, .smallCaps.bad, .smallCaps.warning {
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.bad {
+  color: #fff;
+  background-color: #DB1A0D;
+}
+
+.good {
+  color: #fff;
+  background-color: #00D5CA;
+}
+
+.warning {
+  color: #fff;
+  background-color: #EBB505;
+}
+
 h1 {
   font-size: 42px;
   font-weight: 500;
@@ -120,4 +149,3 @@ header {
 .typeCard h1, h2, h3, p {
   margin-top: 0;
 }
-
