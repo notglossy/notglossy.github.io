@@ -1,0 +1,122 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.monospace {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.serif {
+  font-family: 'Bitter', serif;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Bitter', serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+header {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 5%;
+}
+
+.colorWrap {
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.colorWrap h2 {
+  margin-top: 0;
+}
+
+.colorSwatch,  .fontCard, .typeCard {
+  max-width: 100%;
+  padding: 5%;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.colorSwatch h4 {
+  margin:0;
+}
+
+.colorSwatch:last-of-type {
+   margin-bottom: 0;
+}
+
+.bg-deepblue {
+  background-color: #3B5998;
+  color: #fff;
+}
+
+.bg-deepred {
+  background-color: #DB1A0D; 
+  color: #fff;
+}
+
+.bg-maroon {
+  background-color: #C7157B;
+  color: #fff;
+}
+
+.bg-lightgrey {
+  background-color: #E8F0FA;
+  color: #4d4d4d;
+}
+
+.bg-mustard {
+  background-color: #EBB505;
+  color: #4d4d4d;
+}
+
+.bg-darkgrey {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #4d4d4d;
+}
+
+.fontWrap, .typeWrap {
+  padding: 5%;
+}
+
+.fontCard:last-of-type {
+  margin-bottom: 0;
+}
+
+.fontCard h3 {
+  margin: 0;
+}
+
+.fontCard p {
+  margin-bottom: 0;
+}
+
+.typeCard h1, h2, h3, p {
+  margin-top: 0;
+}
